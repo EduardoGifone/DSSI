@@ -1,0 +1,33 @@
+/* Selector por ID */
+#primero {
+  color: red;
+}
+
+/* Selector por clase */
+.parrafo {
+  color: blue;
+}
+.big {
+  font-size: 25px;
+}
+
+/* Selector por elemento y clase*/
+p.parrafo {
+  color: green;
+}
+
+/* Selector universal */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Selector por elemento*/
+p{
+  font-size: 15px;
+}
+
+/* Selector de distintos elementos */
+h2, h3 {
+  color: purple;
+}
