@@ -44,6 +44,14 @@ body {
 	
 }
 
+.card, .banner {
+	transition: all 200ms ease-in;
+}
+
+.card:hover, .banner:hover{
+	transform: scale(1.02);
+}
+
 .card .textos {
 	height: 100%;
 	display: flex;	
@@ -57,8 +65,7 @@ body {
 	padding: 20px;
 	background-size: cover;
 	background-position: center center;
-	display: flex;
-	flex-direction: column;
+	display: flex; flex-direction: column;
 	justify-content: space-between;
 
 }
